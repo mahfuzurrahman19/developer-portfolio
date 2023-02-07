@@ -65,18 +65,38 @@ nav ul{
 main{
     max-width: 1140px;
     width: 1140px;
-    margin: 0 auto;
-
+     margin: 0 auto; 
+/* align-items: center; */
 }
 
 
 /* section about me start-------- */
-.about-me{
-margin: 131 144 169;
+.about{
+margin-top: 140px;
+background: #FFF8F3;
+border: 2px solid  #FFF8F3;
+border-radius: 10px;
+padding-left:141px ;
+padding-right:169px ;
+padding-top: 131px;
+padding-bottom:  131px; 
+text-align: center;
 }
-.about h3{
+.section-tittle{
+     text-align: center;
+     /* margin-bottom: 18px; */
+}
+.-section-description{
 
 }
-.description{
-
+.about-info-container{
+    display: flex;
+    /* margin-left: 10px; */
+}
+.about-info{
+    margin-left: 30px;
+}
+.info-tittle{
+    font-size: 20px;
+    color: gray;
 }
