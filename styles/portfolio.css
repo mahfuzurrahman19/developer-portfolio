@@ -1,0 +1,82 @@
+.first{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+*{
+    font-family: 'Seymour One', sans-serif;
+
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 45px;
+}
+.button{
+    width: 150px;
+height: 64px;
+/* left: 1220px; */
+/* top: 50px; */
+border-radius: 7px;
+background-color:#FD6E0A;
+
+}
+.primary{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    /* margin-left: 10px; */
+    align-items: center;
+}
+/* --------nav end------- */
+/* ---------banner start------ */
+.banner-first{
+    /* margin: 0 10px 200px 0; */
+    margin-top: 0px;
+    margin-left: 200px;
+     display: flex;  
+     align-items: center;
+}
+.banner-third{
+    font-size: small;
+    font-weight: 500px;
+}
+.primary-2nd{
+    background-color: #FD6E0A;
+    height: 50px;
+    padding: 5px;
+    margin-top: 30px;
+}
+/* --------header end------- */
+
+
+
+/* --------main section start....... */
+main{
+    max-width: 1140px;
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* section about me start-------- */
+.about-me{
+margin: 131 144 169;
+}
+.about h3{
+
+}
+.description{
+
+}
